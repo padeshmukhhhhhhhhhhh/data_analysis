@@ -1,0 +1,78 @@
+[E 240218 22:18:38 1770812418:56] Historic Api failed: If using all scalar values, you must pass an index
+    Traceback (most recent call last):
+      File "C:\Users\admin\AppData\Local\Temp\ipykernel_13804\1770812418.py", line 47, in main
+        format_data=pd.DataFrame(data)
+      File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\frame.py", line 767, in __init__
+        mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+      File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\internals\construction.py", line 503, in dict_to_mgr
+        return arrays_to_mgr(arrays, columns, index, dtype=dtype, typ=typ, consolidate=copy)
+      File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\internals\construction.py", line 114, in arrays_to_mgr
+        index = _extract_index(arrays)
+      File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\internals\construction.py", line 667, in _extract_index
+        raise ValueError("If using all scalar values, you must pass an index")
+    ValueError: If using all scalar values, you must pass an index
+[E 240218 22:18:38 1770812418:56] Historic Api failed: If using all scalar values, you must pass an index
+    Traceback (most recent call last):
+      File "C:\Users\admin\AppData\Local\Temp\ipykernel_13804\1770812418.py", line 47, in main
+        format_data=pd.DataFrame(data)
+      File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\frame.py", line 767, in __init__
+        mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+      File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\internals\construction.py", line 503, in dict_to_mgr
+        return arrays_to_mgr(arrays, columns, index, dtype=dtype, typ=typ, consolidate=copy)
+      File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\internals\construction.py", line 114, in arrays_to_mgr
+        index = _extract_index(arrays)
+      File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\internals\construction.py", line 667, in _extract_index
+        raise ValueError("If using all scalar values, you must pass an index")
+    ValueError: If using all scalar values, you must pass an index
+[E 240218 22:18:38 1770812418:56] Historic Api failed: If using all scalar values, you must pass an index
+    Traceback (most recent call last):
+      File "C:\Users\admin\AppData\Local\Temp\ipykernel_13804\1770812418.py", line 47, in main
+        format_data=pd.DataFrame(data)
+      File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\frame.py", line 767, in __init__
+        mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+      File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\internals\construction.py", line 503, in dict_to_mgr
+        return arrays_to_mgr(arrays, columns, index, dtype=dtype, typ=typ, consolidate=copy)
+      File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\internals\construction.py", line 114, in arrays_to_mgr
+        index = _extract_index(arrays)
+      File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\internals\construction.py", line 667, in _extract_index
+        raise ValueError("If using all scalar values, you must pass an index")
+    ValueError: If using all scalar values, you must pass an index
+[E 240218 22:19:20 863420993:56] Historic Api failed: If using all scalar values, you must pass an index
+    Traceback (most recent call last):
+      File "C:\Users\admin\AppData\Local\Temp\ipykernel_13804\863420993.py", line 47, in main
+        format_data=pd.DataFrame(data)
+      File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\frame.py", line 767, in __init__
+        mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+      File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\internals\construction.py", line 503, in dict_to_mgr
+        return arrays_to_mgr(arrays, columns, index, dtype=dtype, typ=typ, consolidate=copy)
+      File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\internals\construction.py", line 114, in arrays_to_mgr
+        index = _extract_index(arrays)
+      File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\internals\construction.py", line 667, in _extract_index
+        raise ValueError("If using all scalar values, you must pass an index")
+    ValueError: If using all scalar values, you must pass an index
+[E 240218 22:19:20 863420993:56] Historic Api failed: If using all scalar values, you must pass an index
+    Traceback (most recent call last):
+      File "C:\Users\admin\AppData\Local\Temp\ipykernel_13804\863420993.py", line 47, in main
+        format_data=pd.DataFrame(data)
+      File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\frame.py", line 767, in __init__
+        mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+      File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\internals\construction.py", line 503, in dict_to_mgr
+        return arrays_to_mgr(arrays, columns, index, dtype=dtype, typ=typ, consolidate=copy)
+      File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\internals\construction.py", line 114, in arrays_to_mgr
+        index = _extract_index(arrays)
+      File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\internals\construction.py", line 667, in _extract_index
+        raise ValueError("If using all scalar values, you must pass an index")
+    ValueError: If using all scalar values, you must pass an index
+[E 240218 22:19:21 863420993:56] Historic Api failed: If using all scalar values, you must pass an index
+    Traceback (most recent call last):
+      File "C:\Users\admin\AppData\Local\Temp\ipykernel_13804\863420993.py", line 47, in main
+        format_data=pd.DataFrame(data)
+      File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\frame.py", line 767, in __init__
+        mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+      File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\internals\construction.py", line 503, in dict_to_mgr
+        return arrays_to_mgr(arrays, columns, index, dtype=dtype, typ=typ, consolidate=copy)
+      File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\internals\construction.py", line 114, in arrays_to_mgr
+        index = _extract_index(arrays)
+      File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\internals\construction.py", line 667, in _extract_index
+        raise ValueError("If using all scalar values, you must pass an index")
+    ValueError: If using all scalar values, you must pass an index
