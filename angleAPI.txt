@@ -1,0 +1,28 @@
+from SmartApi import SmartConnect
+import pyotp
+from logzero import logger
+api_key="Fh7Yx6v6"
+try:
+    token = "BVRHBRPZV7XRLWEDB3GUK26YGA"
+    totp = pyotp.TOTP(token).now()
+except Exception as e:
+    logger.error("Invalid Token: The provided token is not valid.")
+    raise e
+
+smartApi = SmartConnect(api_key)
+username="V405113"
+pwd='3792'
+sessiongenerate = smartApi.generateSession(username, pwd,totp)
+
+data=rq.get("https://margincalculator.angelbroking.com/OpenAPI_File/files/OpenAPIScripMaster.json").json()
+
+condata=pd.DataFrame.from_dict(data)
+
+condata.to_csv("newangle.csv")
+
+exchange = "BSE"
+tradingsymbol = "ITC"
+symboltoken =500875
+lastprice=smartApi.ltpData(exchange,tradingsymbol,symboltoken )
+
+print("LTP=",lastprice["data"]["ltp"])

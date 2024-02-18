@@ -1,0 +1,25 @@
+[E 240218 19:18:41 2092136538:45] Historic Api failed: name 'talib' is not defined
+    Traceback (most recent call last):
+      File "C:\Users\admin\AppData\Local\Temp\ipykernel_7232\2092136538.py", line 42, in <module>
+        new_data["rsi"]=talib.RSI(new_data["close"],timeperiod=14)
+    NameError: name 'talib' is not defined
+[E 240218 19:20:02 2247755371:45] Historic Api failed: ('close', 'rsi')
+    Traceback (most recent call last):
+      File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\indexes\base.py", line 3802, in get_loc
+        return self._engine.get_loc(casted_key)
+      File "index.pyx", line 153, in pandas._libs.index.IndexEngine.get_loc
+      File "index.pyx", line 182, in pandas._libs.index.IndexEngine.get_loc
+      File "pandas\\_libs\\hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+      File "pandas\\_libs\\hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+    KeyError: ('close', 'rsi')
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "C:\Users\admin\AppData\Local\Temp\ipykernel_7232\2247755371.py", line 43, in <module>
+        print(new_data["close","rsi"])
+      File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\frame.py", line 4090, in __getitem__
+        indexer = self.columns.get_loc(key)
+      File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\indexes\base.py", line 3809, in get_loc
+        raise KeyError(key) from err
+    KeyError: ('close', 'rsi')

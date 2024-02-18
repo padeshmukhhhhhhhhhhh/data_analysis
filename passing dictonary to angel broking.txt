@@ -1,0 +1,32 @@
+from threading import Thread
+
+
+
+class stock:
+    def main(self,exchange, tradingsymbol, symboltoken):
+        
+        lastprice=smartApi.ltpData(exchange,tradingsymbol,symboltoken)
+
+        print(f"LTP of {tradingsymbol} = {lastprice['data']['ltp']}")
+
+ob=stock()
+
+thread_args_list = [
+    {"exchange": "BSE", "tradingsymbol": "ITC", "symboltoken": 500875},
+    {"exchange": "NSE", "tradingsymbol": "IDFC-EQ", "symboltoken": 11957},
+    {"exchange": "NSE", "tradingsymbol": "VIJAYA-EQ", "symboltoken": 5585},
+   
+]
+
+
+threads = []
+
+# Create and start each thread
+for args in thread_args_list:
+    thread = Thread(target=ob.main, kwargs=args)
+    thread.start()
+    threads.append(thread)
+
+# Wait for all threads to complete
+for thread in threads:
+    thread.join()

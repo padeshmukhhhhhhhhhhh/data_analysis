@@ -1,0 +1,19 @@
+from threading import Thread
+
+class stock:
+    def main(self,exchange, tradingsymbol, symboltoken):
+        
+        lastprice=smartApi.ltpData(exchange,tradingsymbol,symboltoken)
+
+        print(f"LTP of {tradingsymbol} = {lastprice['data']['ltp']}")
+
+ob=stock()
+
+
+
+t1=Thread(target=ob.main,args=("BSE","ITC",500875))
+t1.start()
+t1=Thread(target=ob.main,args=("NSE","IDFC-EQ",11957))
+t1.start()
+t1=Thread(target=ob.main,args=("NSE","VIJAYA-EQ",5585))
+t1.start()
